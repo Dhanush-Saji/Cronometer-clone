@@ -1,0 +1,103 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    width: 35%;
+    margin: 20px auto;
+    gap: 1rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 10px;
+}
+input{
+    border: none;
+    border: 1px solid rgba(0, 0, 0, 0.123);
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+button{
+    border: none;
+    border: 1px solid rgba(0, 0, 0, 0.123);
+    padding: 8px 15px;
+    border-radius: 5px;
+    color: black;
+    font-weight: 700;
+    font-size: medium;
+}
+.form a > img{
+    width: 300px;
+    margin: auto;
+}
+.form > div{
+    display: flex;
+    justify-content: space-between;
+}
+.loginSign{
+    color: orangered;
+    cursor: pointer;
+    text-decoration: none;
+}
+.blog{
+    display: flex;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+    display: flex;
+    margin: 20px auto;
+    gap: 3rem;
+  }
+
+  .li{
+    padding: 10px;
+}
+ul li::before {
+    content: "\2022";
+    color: red;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+li:hover{
+    background-color: rgb(230, 230, 230);
+    border-radius: 5px;
+  }
+.footer{
+    padding: 4% 2%;
+    background-color: #4f4e53;
+    /* height: 100%; */
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+}
+.footer > div:nth-child(1) img{
+    width: 120px;
+}
+.footer > div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.footer > div:nth-child(2) > p{
+    color: white;
+    font-size: 0.5em;
+
+}
+.footer > div:nth-child(2) img{
+    margin: auto;
+    width: 200px;
+}
+.footer > div:nth-child(3){
+    display: flex;
+    gap: 1rem;
+}
+.footer > div:nth-child(3) img{
+    height: 40px;
+
+}

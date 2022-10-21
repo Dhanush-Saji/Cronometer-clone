@@ -1,0 +1,553 @@
+.home{
+    margin: auto;
+    width: 100%;
+    height: 1000px;
+}
+.eatSmarterImage{
+    width: 500px;
+    margin-right: 60px;
+}
+.eatSmarterImage2{
+    width: 450px;
+    margin: auto;
+    display: none;
+}
+.eatSmarter{
+    display: flex;
+    margin: 40px auto;
+    justify-content: center;
+    max-width: 85%;
+}
+.eatSmarterText{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.eatSmarterTextH2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.eatSmarterTextH2 > h2{
+    display: inline;
+    font-size: 50px;
+    margin: 0px;
+}
+.eatSmarterText > h4{
+    display: inline;
+    font-size: 1.76em;
+    line-height: 1.5em;
+    font-weight: 400;
+    margin: 10px 0px;
+    max-width: 500px;
+}
+.eatSmarterSignup{
+    padding: 10px 35px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    background-color: #ff763f;
+    width: 270px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 50px 0px 30px 0px;
+}
+.learnButton{
+    padding: 10px 35px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    color: #ff763f;
+    background-color: white;
+    width: 270px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 50px 0px 30px 0px;
+}
+.eatSmarterSignup:hover{
+    box-shadow: rgba(0, 0, 0, 0.377) 0px 0px 12px;
+}
+.eatSmarterText > p{
+    margin: 0;
+    display: inline;
+}
+.eatSmarterText > p > span{
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 700;
+    margin-left: 10px;
+}
+.asSeenOn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.asSeenOn p{
+    font-weight: 500;
+    font-size: 22px;
+}
+.asSeenOnImage{
+    display: flex;
+    justify-content: center;
+    gap: 8%;
+    margin: auto 50px;
+}
+.asSeenOnImage img{
+    height: 40px;
+}
+.asSeenOnPlay{
+    display: flex;
+    justify-content: center;
+    gap: 1%;
+}
+.asSeenOnPlay img{
+    height: 50px;
+}
+.discover{
+    background-color: #f8f8f8;
+    padding: 40px;
+    padding-bottom: 80px;
+}
+.develop{
+    padding: 40px;
+    padding-bottom: 80px;
+}
+.discoverGrid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 100px;
+}
+.developGrid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 100px;
+    gap: 60px 10px;
+}
+.discoverGrid img,.developGrid img{
+    height: 100px;
+}
+.discover > h3,.develop > h3{
+    font-weight: 700;
+    font-size: 2.2em;
+}
+.discover > h5,.develop > h5{
+    margin: auto;
+    font-size: 1.41em;
+    font-weight: 400;
+    line-height: 1.5em;
+    max-width: 42%;
+}
+.discoverGrid h5{
+    font-weight: 600;
+    text-align: center;
+    font-size: 1.41em;
+    line-height: 1.5em;
+}
+.developGrid > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.developGrid h5{
+    font-weight: 600;
+    text-align: center;
+    font-size: 1.41em;
+    line-height: 1.5em;
+    max-width: 60%;
+    margin: auto;
+    margin-bottom: 37px;
+}
+.discoverGrid p,.developGrid p{
+    margin: auto;
+    text-align: center;
+    font-size: 1.125em;
+    line-height: 1.5em;
+    max-width: 80%;
+
+}
+.signupBanner{
+    background-color: #f8f8f8;
+    padding: 40px;
+}
+.signupBanner > h4{
+    font-size: 1.76em;
+    line-height: 1.5em;
+    font-weight: 600;
+    text-align: center;
+    max-width: 50%;
+    margin: auto;
+
+}
+.syncApp > h3{
+    font-weight: 600;
+    font-size: 2.2em;
+    line-height: 1.25em;
+}
+.syncApp > h5{
+    font-size: 1.41em;
+    line-height: 1.5em;
+    font-weight: 400;
+}
+.syncAppImage{
+    height: 130px;
+}
+.syncAppImage2{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+.syncAppImage2 > img{
+    width: 500px;
+}
+.cronometer > h3{
+    font-weight: 700;
+    font-size: 2.2em;
+    line-height: 1.25em;
+    text-align: center;
+    margin: 0;
+}
+.cronometer > h5{
+    font-size: 1.41em;
+    line-height: 1.5em;
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+    margin-top: 10px;
+}
+.gridImage > img{
+    width: 10%;
+}
+.crmImg{
+    width: 10%;
+    display: none;
+
+}
+.cronometerGridAppleGoogle{
+    width: 200px;
+}
+.cronometerGrid{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px;
+}
+.cronometerGrid > div{
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    margin: auto 40px; 
+    justify-content: space-around;
+    padding: 20px;
+}
+.gridImage{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.crmTexthide{
+    display: none;
+}
+.crmText{
+    font-weight: 600;
+    font-size: 1.76em;
+    line-height: 1.5em;
+    max-width: 450px;
+    margin-top: 0;
+    color: #ff773f;
+}
+.gridImage > h4{
+    font-weight: 600;
+    font-size: 1.76em;
+    line-height: 1.5em;
+    max-width: 450px;
+    margin-top: 0;
+    color: #ff773f;
+}
+.gridText > p{
+    font-size: 1.125em;
+    line-height: 1.5em;
+    text-align: left;
+    max-width: 500px;
+    margin-left: 20px;
+}
+.gridImage > img{
+    margin-top: 60px;
+}
+.cronometerGridAppleGooglelinkHide{
+    display: none;
+}
+.cronoBanner{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    background-color: #f8f8f8;
+    padding: 60px;
+}
+.cronoBanner > div:nth-child(1){
+    grid-area: 1/1/3/2;
+}
+.cronoBanner > div:nth-child(2){
+    grid-area: 1/2/2/3;
+}
+.cronoBanner > div:nth-child(3){
+    grid-area: 2/2/3/3;
+}
+.cronoBanner > div:nth-child(2) > img{
+    width: 250px;
+}
+.cronoBanner > div:nth-child(3) > strong{
+    font-size: 1.41em;
+    line-height: 1.5em;
+    font-weight: bold;
+    margin: 20px auto;
+}
+.cronoBanner > div:nth-child(3){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+.cronoBanner > div:nth-child(3) > h5{
+    font-size: 1.41em;
+    line-height: 1.5em;
+    font-weight: 400;
+    max-width: 600px;
+    text-align: center;
+    margin: auto;
+}
+.cronoBanner > div:nth-child(3) > button{
+    margin: 20px auto;
+}
+.cronoMan{
+    width: 350px;
+}
+.canadian{
+    padding: 30px;
+}
+.canadian > h3{
+    font-weight: 700;
+    font-size: 2.2em;
+    line-height: 1.25em;
+}
+.canadian > h5{
+    font-size: 1.41em;
+    line-height: 1.5em;
+    font-weight: 400;
+    max-width: 500px;
+    margin: auto;
+}
+.canadian > img{
+    margin: auto;
+    margin-top: 20px;
+    width: 700px;
+}
+.canadian > p{
+    font-size: 1.125em;
+    line-height: 1.5em;
+    margin: 20px auto;
+    max-width: 900px;
+}
+hr{
+    width: 85%;
+    margin: 50px auto;
+}
+.homefooter{
+    padding: 4% 2%;
+    background-color: #4f4e53;
+    height: 100%;
+}
+.social{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin: 20px auto;
+}
+.social > img{
+    width: 50px;
+}
+.playstore{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.playstore img{
+    width: 150px;
+}
+.homefooter{
+    height: auto;
+}
+.homefooter > hr{
+    color: white;
+    width: 80%;
+}
+.footerLink{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+    gap: 10%;
+    height: auto;
+}
+.footerLink > img{
+    height: 50px;
+    /* margin: 0; */
+    margin-top: 40px;
+
+}
+.footerLink  p{
+    color: white;
+    margin-top: 50px;
+    font-size: 1.125em;
+    font-weight: 700;
+}
+.footerLink div{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.footerLink a{
+    color: white;
+    text-decoration: none;
+    font-size: 100%;
+    line-height: 1.5em;
+    margin-top: 30px;
+}
+.copyright{
+    margin-top: 40px;
+}
+.copyright > p{
+    color: white;
+
+}
+@media (max-width:1000px){
+    .footerLink{
+        grid-template-columns: repeat(1,1fr);
+        gap: 5%;
+    }
+    .signupBanner > h4{
+        max-width: 70%;
+    }
+    .eatSmarterImage{
+        width: 350px;
+        margin-right: 30px;
+    }
+    .eatSmarterText > h4{
+        max-width: 350px;
+    }
+    .discoverGrid{
+        grid-template-columns: repeat(1,1fr);
+        gap: 2rem;
+    }
+    .discoverGrid p{
+        max-width: 55%;
+        margin-top: 10px;
+    }
+    .discoverGrid h5{
+        margin: 0 auto;
+        font-weight: 700;
+    font-size: 1.5em;
+    }
+    .discoverGrid > div:nth-child(1){
+        order: 3;
+    }
+    .discoverGrid > div:nth-child(2){
+        order: 2;
+    }
+    .discoverGrid > div:nth-child(3){
+        order: 1;
+    }
+    .developGrid{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .develop > h5{
+        max-width: 80%;
+    }
+}
+@media (max-width:820px){
+    .cronometerGridAppleGooglelinkHide{
+        display: flex;
+    }
+    .cronometerGridAppleGooglelink{
+        display: none;
+    }
+    .cronometerGrid > div{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding: 30px;
+    }
+    .gridText > p{
+        text-align: left;
+        max-width: 100%;
+        margin: 0;
+    }
+    .gridImage > h4{
+        max-width: 100%;
+        font-size: 1.56em;
+        line-height: 1.25em;
+        text-align: left;
+    }
+    .gridImage > img{
+        margin: 0;
+    }
+    .gridText > p:nth-child(2){
+        margin: 20px auto;
+    }
+    .crmImg{
+        display: flex;
+    }
+    .crmHide{
+        display: none;
+    }
+    .crmTexthide{
+        display: flex;
+    }
+    .crmtext{
+        max-width: 100%;
+        font-size: 1.56em;
+        line-height: 1.25em;
+        text-align: left;
+    }
+    .syncAppImage2{
+        display: flex;
+    }
+    .syncAppImage{
+        display: none;
+    }
+    .developGrid{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .eatSmarterImage{
+        display:none;
+    }
+    .eatSmarterText{
+        text-align: center;
+        justify-content: center;
+    }
+    .eatSmarterText > h4{
+        max-width: 600px;
+    }
+    .eatSmarterTextH2 > h2{
+        font-size: 2.44em;
+    }
+    .eatSmarterSignup{
+        margin: auto;
+    }
+    .eatSmarterSignup{
+        margin: auto;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .eatSmarterImage2{
+        display: flex;
+    }
+}

@@ -1,0 +1,70 @@
+.nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.nav > img{
+    height: 50px;
+}
+h3{
+    margin: 30px auto;
+    text-align: center;
+}
+.user{
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 40%;
+    padding: 20px;
+    gap: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.body{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+    padding: 20px;
+    gap: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+td{
+    padding: 5px 10px;
+}
+.terms{
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding: 20px;
+    gap: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.terms > div{
+    display: flex;
+    gap: 0px;
+}
+.terms p{
+    margin: 0;
+}
+.create{
+    text-align: center;
+    margin: auto;
+    background-color: rgba(24, 155, 24, 0.342);
+    color: white;
+    padding:  10px 300px;
+    cursor: pointer;
+}
+.create:hover{
+    background-color: rgba(24, 155, 24, 0.753);
+
+}
+.signup{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 30px;
+}
